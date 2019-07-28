@@ -13,5 +13,5 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  katz deli.push
+  "Welcome, #{katz_deli}. You are number #{name} in line."
 end

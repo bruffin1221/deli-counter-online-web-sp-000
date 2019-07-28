@@ -13,5 +13,6 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  "Welcome, #{katz_deli}. You are number #{name} in line."
+  katz_deli<<"name"
+  puts "Welcome, #{katz_deli}. You are number #{name} in line."
 end

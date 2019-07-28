@@ -1,13 +1,11 @@
-katz_deli=[]
+katz=[]
 
 def line(katz_deli)
-  line_num=[]
+line_num=[]
 if katz_deli.size==0
-  puts "The line is currently empty."
+puts "The line is currently empty."
 else katz_deli.size>=1
-  katz_deli.each.with_index(1) do |customer,num|
-    line_num.<<"#{num}. #{customer}).join"
-    puts "The line is currently: #{line_num.join(" ")}"
-    end
-  end
+katz_deli.each.with_index(1) do |customer,num|
+  line_num.<<"#{num}. #{customer})".join
+  puts "The line is currently: #{line_num}"
 end

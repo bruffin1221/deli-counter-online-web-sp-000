@@ -10,5 +10,4 @@ katz_deli.each.with_index(1) do |customer,num|
   puts "The line is currently: #{line_num.join}"
 end
 end
-puts "The line is currently: #{line_num.join}"
 end

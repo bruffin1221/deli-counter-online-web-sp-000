@@ -13,4 +13,5 @@ end
 end
 
 def take_a_number(katz_deli)
-  katz deli.push 
+  katz deli.push
+end

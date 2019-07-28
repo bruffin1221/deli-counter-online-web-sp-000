@@ -11,3 +11,6 @@ end
   puts "The line is currently: #{line_num.join(" ")}"
 end
 end
+
+def take_a_number(katz_deli)
+  katz deli.push 
